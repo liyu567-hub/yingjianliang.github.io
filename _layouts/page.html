@@ -551,26 +551,22 @@
       <!-- Row 1: oversized Penn logo (far left) · theme toggle (far right) -->
       <div class="header-top">
         <!-- Mobile avatar with expandable contact menu (mobile portrait only) -->
-        <div class="mobile-avatar-wrapper">
-          <button class="mobile-avatar-btn" aria-label="Toggle contact info" aria-expanded="false">
-            <img src="{{ site.url }}/images/{{ site.owner.avatar }}"
-                 alt="{{ site.owner.name }}" class="mobile-avatar-img">
-          </button>
-        </div>
+       
+<a class="header-logo" href="{{ site.url }}" aria-label="{{ site.owner.name }}">
 
-        <a class="header-logo" href="{{ site.url }}" aria-label="{{ site.owner.name }}">
-          <img src="/images/penn-logo.png" class="logo logo--light" alt="University of Pennsylvania">
-          <img src="/images/penn-logo-reverse.png" class="logo logo--dark" alt="University of Pennsylvania">
-        </a>
+    <img src="/images/hrb-logo.png"
+         class="logo logo-light"
+         alt="Harbin Medical University">
+
+    <div class="header-institution">
+        Harbin Medical University
+    </div>
+
+</a>
+
 
         <div class="header-actions">
-          <div class="header-social">
-            <a class="header-social__link" href="mailto:{{ site.owner.email }}" target="_blank" rel="noopener" aria-label="Email" title="Email"><i class="icon-mail" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="https://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="icon-linkedin" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="icon-github" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="{{ site.owner.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="{{ site.owner.researchgate }}" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
-          </div>
+          
           <!-- Dark mode toggle (desktop only; mobile uses the contact panel toggle) -->
           <div class="theme-toggle-wrapper theme-toggle-wrapper--header">
             <label class="switch">
@@ -593,9 +589,7 @@
               <span class="switch__sr">Dark Mode</span>
             </label>
           </div>
-          <span class="header-avatar" title="{{ site.owner.name }}">
-            <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}">
-          </span>
+          
         </div>
       </div>
 

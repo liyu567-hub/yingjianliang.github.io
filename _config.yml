@@ -2,8 +2,6 @@ title: Yingjian Liang
 # Comment out url when working locally to resolve base urls correctly
 url: https://liyu567-hub.github.io
 
-# Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
-og_image: og-cover.jpg
 
 # Owner/author information
 owner:
@@ -24,9 +22,6 @@ links:
     url: /
   - title: Publications
     url: /publications/
-  - title: Beyond Research
-    url: /hobbies/
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 future: true

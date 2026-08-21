@@ -1,15 +1,15 @@
-title: Siming Deng
+title: Yingjian Liang
 # Comment out url when working locally to resolve base urls correctly
-url: https://larrysimingdeng.github.io
+url: https://yingjianliang.github.io
 
 # Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
 og_image: og-cover.jpg
 
 # Owner/author information
 owner:
-  name: Siming Deng
+  name: Yingjian Liang
   avatar: avatar.jpg
-  email: siming_deng_stat@163.com
+  email: yingjianliang@hrbmu.edu.cn
   github: LarrySimingDeng
   linkedin: larry-deng-317b92360
   scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
@@ -28,7 +28,7 @@ links:
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 

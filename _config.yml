@@ -2,8 +2,7 @@ title: Yingjian Liang
 # Comment out url when working locally to resolve base urls correctly
 url: https://yingjianliang.github.io
 
-# Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
-og_image: og-cover.jpg
+
 
 # Owner/author information
 owner:
@@ -12,6 +11,8 @@ owner:
   email: yingjianliang@hrbmu.edu.cn
   github: liyu567-hub
   linkedin: larry-deng-317b92360
+  scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
+  researchgate: https://www.researchgate.net/profile/Siming-Deng-3
 
 # https://search.google.com/search-console/ownership
 google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"

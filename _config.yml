@@ -1,6 +1,6 @@
 title: Yingjian Liang
 # Comment out url when working locally to resolve base urls correctly
-url: https://liyu567-hub.github.io
+url: https://yingjianliang.github.io
 
 # Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
 og_image: og-cover.jpg
@@ -26,7 +26,7 @@ links:
     url: /publications/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: /Shanghai
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 
